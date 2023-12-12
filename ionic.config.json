@@ -1,0 +1,7 @@
+{
+  "name": "Tounazour App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
