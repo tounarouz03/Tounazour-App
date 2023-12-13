@@ -1,0 +1,98 @@
+.allpage{
+    width: 100vw;
+    height: 100vh;
+  }
+  .logo{
+    position: relative;
+    z-index: 999;
+    height: 230px;
+    display: flex;
+    margin-bottom:60px ;
+    align-items:center;
+    justify-content:end;
+    flex-direction: column;
+  }
+  .dot1 {
+    height: 250px;
+    width: 250px;
+    background-color: #FBE366;
+    border-radius: 50%;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    top: -130px;
+    opacity: 0.6;
+  }
+
+
+  .dot2 {
+    height:250px;
+    width: 250px;
+    background-color: #FBE366;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: fixed;
+    top: -10px;
+    left: -130px;
+    opacity: 0.4;
+  }
+  .dot3 {
+    height: 250px;
+    width: 250px;
+    background-color: #FBE366;
+    border-radius: 50%;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    bottom: -120px;
+    right: -80px;
+    opacity: 0.6;
+  }
+  .logo img{
+    width: 88px;
+    border-radius: 10px;
+  }
+  
+  .logo div{
+    font-size: 25px;
+    font-weight: bold;
+    color: #555213;
+    position: relative;
+    z-index: 99;
+  }
+  .logincontain{
+  
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .cbtn{
+    background-color: #FBE366;
+    height: 50px;
+    border-radius: 10px;
+    color: #555213;
+  }
+  
+  .lll{
+    width: 80%;
+  }
+  .titr{
+    color:#555213;
+  }
+  
+  .int{
+    height: 50px;
+    border-radius: 10px;
+  }
+  .sinsin{
+    color: #326789;
+  }
+  .sinsin a{
+   color: rgb(0, 0, 171);
+  }
+  .formtit
+  {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  

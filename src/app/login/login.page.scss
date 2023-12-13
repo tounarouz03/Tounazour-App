@@ -1,0 +1,95 @@
+
+.allpage{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .dot1 {
+    height: 250px;
+    width: 250px;
+    background-color: #FBE366;
+    border-radius: 50%;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    top: -130px;
+    opacity: 0.6;
+  }
+
+
+  .dot2 {
+    height:250px;
+    width: 250px;
+    background-color: #FBE366;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: fixed;
+    top: -10px;
+    left: -130px;
+    opacity: 0.4;
+  }
+  .dot3 {
+    height: 250px;
+    width: 250px;
+    background-color: #FBE366;
+    border-radius: 50%;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    bottom: -120px;
+    right: -80px;
+    opacity: 0.6;
+  }
+
+  .logo{
+    position: relative;
+    z-index: 999;
+    height: 230px;
+    display: flex;
+    margin-bottom:60px ;
+    align-items:center;
+    justify-content:end;
+    flex-direction: column;
+  }
+  .logo div{
+    font-size: 25px;
+    font-weight: bold;
+    color: #555213;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .logincontain{
+
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .lll{
+    width: 80%;
+    font-family: 'Rubik', sans-serif;
+  }
+  .titr{
+    color:#555213;
+  }
+
+  .formtit
+{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+}
+
+.int{
+  height: 50px;
+  border-radius: 10px;
+}
+
+.cbtn{
+  background-color: #fde98e;
+  height: 50px;
+  border-radius: 10px;
+  color: #35330c;
+  font-family: 'Rubik', sans-serif;
+  font-size: 17px;
+}
