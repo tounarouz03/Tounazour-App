@@ -1,0 +1,222 @@
+
+.tabs{
+    position: fixed;
+    bottom: 0px;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    color: #b0a220;
+    font-weight: bold;
+    border-top: 0.5px rgba(112, 110, 110, 0.573) solid;
+  }
+  ion-tab-button{
+    margin: 0;
+  }
+  
+  .slidphoto{
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 9px;
+    margin-bottom: 130px;
+  }
+  .showtitle{
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: space-between;
+  
+  }
+  .tit{
+    font-size: 20px;
+   font-weight: bold;
+   color: #326789;
+  }
+  
+  .see{
+    font-size: 15px;
+    font-weight: bold;
+    color: #78A6C8;
+    display: flex;
+    align-items: center;
+  }
+  .see i{
+  
+    font-size: 30px;
+  }
+  .card{
+    height: 290px;
+    width: 200px;
+    margin: 5px;
+    flex-shrink: 0;
+    flex-basis: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    color: #326780;
+    background-color: white;
+  }
+  .cimg{
+    position: relative;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .cimg span{
+    position: absolute;
+    z-index: 9999;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .card img{
+    width: 95px;
+    object-fit: cover;
+  }
+  .show_products{
+    height: 310px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow-x: scroll;
+  
+  }
+  
+  .show_products::-webkit-scrollbar {
+    display: 2px;
+  }
+  
+  .priced{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #78a5c874;
+    height: 40px;
+    width: 60%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    color:#326780 ;
+  
+  }
+  .bar{
+    width: 1px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+  }
+  .titlec{
+    font-size: 13px;
+    white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    
+  }
+  .prr{
+  
+    height: 50px;
+    font-size: 17px;
+    color: #E65C4F;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    width: 85%;
+  
+    span{
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  }
+  
+  .nnpro{
+    width: 90%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .bord{
+    border-radius: 20px;
+  
+  }
+  .searchicon div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #326780;
+    font-size: 20px;
+  }
+  
+  .catigory{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+  .catigory::-webkit-scrollbar {
+    display: none;
+  }
+  .catele{
+    background-color: #ffffff;
+    height: 50px;
+    color: #326789;
+    min-width: 100px;
+    border-radius: 25px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: bold;
+    flex-basis: auto;
+  }
+  .trt{
+    background-color: #326789;
+    color: white;
+  }
+  .hicon{
+    background-color:#b1b541;
+    padding: 8px;
+    border-radius: 50%;
+    color: #ffffff;
+  
+    ion-icon{
+      font-size: 20px;
+    }
+  }
+  
+  .sps{
+    font-size:13px ;
+    text-decoration: line-through;
+    color: #78A6C8;
+  }
+  ion-skeleton-text {
+    --border-radius: 10px;
+    --background: rgba(12, 29, 124, 0.065);
+    --background-rgb: 0, 0, 125;
+  }
+  

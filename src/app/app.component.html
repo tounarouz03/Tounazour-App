@@ -1,3 +1,11 @@
 <ion-app>
   <ion-router-outlet></ion-router-outlet>
+
 </ion-app>
+  <div class="tabs" *ngIf="currentPageLink !== '/signup'">
+    <div><ion-icon routerLink="/home" name="home-outline"></ion-icon></div>
+    <div routerLink="/mycards">
+      <ion-icon name="cart-outline"></ion-icon>
+    </div>
+    <ion-icon routerLink="/userspace" name="person-outline"></ion-icon>
+  </div>
